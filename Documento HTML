@@ -1,0 +1,26 @@
+<hmtl>
+<head>
+    <title>HTML</title>
+    <link rel="stylesheet" href="C:\Users\2559615\Desktop\DevWeb\CSS\Estilo.css">
+</head>
+
+<body>
+    <h1>1. Escreva o seu primeiro nome na caixa a seguir: </h1>
+        <div class="FORMULARIO">
+            <form>
+                <input id="Campo_Nome" type="text" placeholder="Primeiro Nome">
+            <h2>2. Escreva o seu sobrenome na caixa a seguir: </h2>
+                    <input id="Campo_Sobrenome" type="text" placeholder="Sobrenome">
+                        <h3>3. Escreva o numero do seu Cartão SUS na caixa a seguir: </h3>
+                            <input id="Campo_Numero_SUS" type="text" placeholder="Cartão SUS">
+                                <h4>4. Escreva o nome e o numero do CRM do medico que formalizou o pedido: </h4>
+                                    <input id="Campo_Nome_Doutor" type="text" placeholder="Medico">
+                                    <input id="Campo_CRM" type="password" type="text" placeholder="CRM">
+                                    <hr>
+                                    <br>
+                                    <input id="Enviar" type="submit" value="Enviar">
+                                    <input id="Apagar" type="reset" value="Apagar"> 
+        </div>
+            </form>                                      
+</body>
+</html>
